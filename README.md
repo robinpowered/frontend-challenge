@@ -29,24 +29,25 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.
 
-You will also see any lint errors in the console.
+[![Preview of frontend challenge](https://i.postimg.cc/N0BhCn7d/Screen-Shot-2020-11-30-at-8-09-35-PM.png)](https://postimg.cc/hXy3fpYm)
 
 ## FYI
-- A desk is unavailable when it is red
+- A desk is unavailable when it is gray
 - A desk is available when it is green
+- A desk must have a type (i.e. available or unavailable) and an ID
+- A pod of desks is between 1-6 desks
 - A modal pops us when a desk is clicked
-- The values for `unavailable` and `available` are set to `0` to start. This is just to show how to display and set state (if you are not already familiar). The values are meant to be changed.
+- The values for `unavailableDesks` and `availableDesks` are set to `0` to start. This is just to show how to display and set state (if you are not already familiar). The values are meant to be changed.
 
 
 ## Acceptance Criteria
 In order to complete the challenge, all acceptance criteria must be met:
 
-- A pod of desks cannot have more than 6 desks and less than 1 desk
-- When adding desks, if the quantity will cause the pod to have more than 6 desks, do not update the 'unavailable' and 'available' count and `console.log` a message saying: "Cannot have more than 6 desks"
-- When deleting a desk, if it will cause the pod to have less than 1 desk, do not update the 'unavailable' and 'available' count and `console.log` a message saying: "Cannot have less than 1 desk"
-- When adding desks, the 'unavailable' and 'available' count should only update if the number of desks will not exceed 6 and after clicking the 'Submit' button
-- When deleting a desk, the 'unavailable' and 'available' count should only update if the number of desks is will not be less than 1 and after clicking the 'Delete' button
-- When the 'Change State' button is clicked, the desk should visibly change state (e.g. red to green) and the 'unavailable' and 'available' count should be updated
+- When adding desks, if the quantity will cause the pod to have more than 6 desks, do not update the `unavailable` and `available` count and `console.log` a message saying: "Cannot have more than 6 desks"
+- When deleting a desk, if it will cause the pod to have less than 1 desk, do not update the `unavailable` and 'available' count and `console.log` a message saying: "Cannot have less than 1 desk"
+- When adding desks, the `unavailable` and `available` count should only update if the number of desks will not exceed 6 and after clicking the `Submit` button
+- When deleting a desk, the `unavailable` and `available` count should only update if the number of desks is will not be less than 1 and after clicking the `Delete` button
+- When the `Toggle State` button is clicked, the desk should visibly change state (e.g. gray to green) and the `unavailable` and `available` count should be updated
 
 ## Submitting the challenge
 
