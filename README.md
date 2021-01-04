@@ -49,8 +49,4 @@ In order to complete the challenge, all acceptance criteria must be met:
 - When deleting a desk, the `unavailable` and `available` count should only update if the number of desks is will not be less than 1 and after clicking the `Delete` button
 - When the `Toggle State` button is clicked, the desk should visibly change state (e.g. gray to green) and the `unavailable` and `available` count should be updated
 
-## Submitting the challenge
-
-TBD
-
 We look forward to seeing your solutions!
